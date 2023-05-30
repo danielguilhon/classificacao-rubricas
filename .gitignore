@@ -1,0 +1,17 @@
+#Ignore all files
+*
+#Unignore files with extensions
+!*.*
+#Unignore directories
+!*/
+*.txt
+*.zip
+*.html
+*.ipynb
+.ipynb_checkpoints/
+*.train
+*.test
+#Ignore specifics
+.conf/
+dados/
+__pycache__
